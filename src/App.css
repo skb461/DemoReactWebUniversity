@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+  transition: 0.6s;
+}
+.NiterName{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  word-spacing: 1px;
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+  z-index: 9999999999999999999;
+}
+.ArialTextCard {
+  z-index: 9999;
+  padding-left: 150px;
+}
+.ArialTextCard p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  background-color: rgba(231, 231, 231, 0.6);
+}
+.ArialText {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25em;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  /*text-shadow: 1px 1px .1px red, 0 0 9px blue, 0 0 5px blue;*/
+}
+.art{
+  margin-bottom: -800px;
+}
+.Section_Two{
+  background:linear-gradient(0deg, rgba(250, 250, 250, 0.5), rgba(216, 216, 216, 0.719)), url(component/front/Section_Two/image/birds_eye_view_niter.jpg);
+  background-size:cover;
+}
+.principle {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(26, 26, 26);
+}
+.date{
+  border-left: 5px solid red ;
+}
+.eventText{
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(26, 26, 26);
+}
+.solid {
+  border-top: 5px solid rgb(255, 252, 252);
+}
+.solid_about{
+  border-top: 5px solid rgb(0, 0, 0);
+}
+.solid_faculti{
+  border-top: 3px solid rgb(0, 0, 0);
+}
+.about_top{
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  background:linear-gradient(0deg, rgba(107, 107, 107, 0.5), rgba(114, 114, 114, 0.719)), url(component/about/image/265052184_2984130405187446_1289476563774103737_n.jpg);
+  background-size:cover;
+  background-position: center;
+}
+.facalty_top{
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  background:linear-gradient(0deg, rgba(107, 107, 107, 0.5), rgba(114, 114, 114, 0.719)), url(component/about/image/306356253_608177401000909_9125840763983835446_n.jpg);
+  background-size:cover;
+  background-position: bottom;
+}
+.notice_date{
+  border-left: 5px solid red ;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+.about_image{
+  height: 700px;
+}
+.card_border{
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.solid_about_end{
+  width: 200px;
+}
+.Teachers_image{
+  height: 800px; 
+  margin-top: 100px;
+}
+.textarea {
+  resize: none;
+}
+.nav_bar{
+  height: 100px;
+  background: #fff;
+}
+
+.nav_bar_image{
+  z-index: 999999999999999999999999999999999999;
+  background: #f8f9fa;
+  margin-top: 140px;
+}
+
+.Front_Text{
+  font-size: 50px;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(26, 26, 26);
+}
+.front_card{
+  margin-top: -100px;
+  z-index: 9999999999;
+}
+.bg-prim {
+  color: rgb(121, 0, 219);
+}
+.bg_prime_under{
+  margin-top: -40px;
+}
+.bg-notice{
+  background:linear-gradient(0deg, rgba(107, 107, 107, 0.5), rgba(114, 114, 114, 0.719)), url(component/Front_2/image/bg.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.bg-notice-card{
+  margin-top: -350px;
+  border-radius: 10px;
+}
+.notice-card{
+  margin-top: 350px;
+}
+.Speach{
+  margin-left: -200px;
+  margin-right: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.principle_image_card{
+  border-radius: 10px;
+  margin-top: -80px;
+}
+.principal_div{
+  background: rgb(197, 197, 197);
+}
+.drn{
+  display: block;
+  opacity: 0;
+  height: 100%;
+}
+.drn:hover{
+  display: block;
+  opacity: 1;
+  background: rgb(0, 0, 0);
+}
+.nav_link{
+  text-decoration: none;
+}
+.dropdown-toggle{
+  margin-top: 2px;
+}
+video{
+  width: 100%;
+}
+/* .sticky{
+  display: none;
+  transition: 0.6s;
+}
+section{
+  display: none;
+  transition: 0.6s;
+}
+.sticky_2{
+  transition: 0.6s;
+  display: block;
+} */
