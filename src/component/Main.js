@@ -26,7 +26,7 @@ function Main() {
                 <Menu_2 />
                 {/* <Menu /> */}
                  <Routes>
-                    <Route path="/" element={<Front_2 />}></Route>
+                    <Route path="/DemoReactWebUniversity" element={<Front_2 />}></Route>
                     <Route path="/about" element={<About />}></Route>
                     <Route path="/faculties" element={<Faculties />}></Route>
                     <Route path="/teacher" element={<Teacher />}></Route>
